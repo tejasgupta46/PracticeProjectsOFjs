@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vw;
+    border: 1px solid black;
+    row-gap: 0.5rem;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10%;
+    min-width: 30%;
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}
+.audio:hover{
+ background-color: rgb(1, 12, 22);
+color: white;
+ transition-duration: 0.3s;
+ cursor: pointer;
+}
