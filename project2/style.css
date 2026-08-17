@@ -52,9 +52,13 @@ top: 50%;
 }
 
 #minutes{
-      height: 2.5vh;
+      height: 1.8vh;
       width: 15vw;
 }
 
-
+#hours{
+  height: 2.4vh;
+  background-color: antiquewhite;
+  /* border-color: aquamarine; */
+}
 
