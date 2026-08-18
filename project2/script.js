@@ -14,7 +14,7 @@ const update = () =>{
       minutes.style.transform = `rotate(${mindegrees}deg)`;
       
       const hr = now.getHours()
-       const hrdegrees = ((hr / 12) * 360) + ((mins/60)*26) + 90;
+       const hrdegrees = ((hr / 12) * 360) + ((mins/60)*30) + 90;
        hours.style.transform = `rotate(${hrdegrees}deg)`;
 
        
