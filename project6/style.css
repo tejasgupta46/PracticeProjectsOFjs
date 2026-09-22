@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.mathces{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgb(73, 52, 52);
+
+}
+
+
+
+.mathces input{
+    height: 5vh;
+    padding-left: 0.5rem;
+    width: 60vh;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0.1rem 0.2rem 0.5rem 0.2rem rgb(119, 146, 233);
+}
+
+.suggestion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  row-gap: 0.5rem;
+padding: 0.5rem;
+   min-height: 20vh;
+    width: 40vw;
+    border: 1px solid black;
+    /* overflow-y: scroll; */
+padding-top: 1rem;
+}
+
+.box{
+    display: flex;
+    justify-content: start;
+align-items: center;
+    padding: 0.8rem;
+    border: 1px solid black;
+    height: 2vh;
+
+}
+
+#findbtn{
+    padding: 0.5rem 3rem;
+    border-radius: 4rem;
+    background-color: rgb(218, 210, 199);
+    border: 2px solid rgb(87, 77, 65);
+}
+
+#inp{
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
