@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video player </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">   
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1> Video player </h1>
+        
+        
+        <video src="img2.mp4"   id="videoplayer"  loop  ></video>
+        
+        <div class="duration">
+            <input type="range" name="duration" min="0" max="22" step="0.1"  id="timeline" width="1500px" value="1" >
+        </div>
+        
+        <div class="buttons">
+            
+      <button id="backtn" class="btn"  data-skip="-10"  ><i class="fa-solid fa-backward"></i></button>
+      <button id="playbtn" class="btn" ><i class="fa-solid fa-play" id="icons"></i></button>
+
+      <button id="pausebtn" class="btn" ><i class="fa-solid fa-pause"></i></button>
+
+      <button id="mutebtn" class="btn" ><i class="fa-solid fa-volume-xmark"></i></button>
+
+
+      <button id="forwardbtn" class="btn" data-skip="10"><i class="fa-solid fa-forward"></i></button>
+      <!-- <button id="playbtn" class="btn" >Play</button> -->
+        </div>
+        
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

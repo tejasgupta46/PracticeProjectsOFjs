@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+    padding: 0.5rem;
+    border: 1px solid black;
+/
+}
+
+#videoplayer{
+    border: 5px solid rgb(255, 33, 33);
+ height: 70%;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 5vh;
+    min-width: 40%;
+    border: 1px solid black;
+    column-gap: 0.2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.1vh;
+    width: 6vw;
+    font-size: 0.9rem;
+}
+
+i{
+    font-size: 1.3rem;
+}
+
+
+.duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    border: 1px solid black;
+
+}
+
+
