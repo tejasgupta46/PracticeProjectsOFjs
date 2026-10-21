@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/* body.dark{ */
+    /* background-color: black; */
+/* } */
+/*  */
+/* body.light{ */
+    /* background-color: rgb(164, 190, 212); */
+/* } */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-height: 20%;
+    border: 1px solid black;
+ width: 30%;
+row-gap: 1.5rem;
+}
+
+
+.items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    min-height:8vh;                                                                   
+    width: 95%;
+    border: 1px solid black;
+
+    padding: 0.5rem;
+    
+}
+
+.items .dec{
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid ; */
+list-style:circle;
+width: 90%;
+font-size: 22px;
+background-color: antiquewhite;
+padding: 0.5rem;
+}
+
+
+.container input{
+    padding: 0.5rem;
+    height: 3.8vh;
+    width: 20vw;
+    font-size: 18px;
+    border-radius: 0.1rem;
+}
+
+.Addbtn{
+    padding: 0.6rem 2rem;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.del{
+    background-color: rgb(236, 75, 75);
+    padding: 0.5rem;
+}
+
+.block{
+    display: none;
+}
